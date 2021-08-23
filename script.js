@@ -1,4 +1,4 @@
-console.log("testaroo");
+//console.log("testaroo");
 
 let theme = localStorage.getItem("theme");
 
@@ -19,8 +19,7 @@ for (var i = 0; themeDots.length > i; i++) {
 }
 
 function setTheme(mode) {
-  //change this later to be a light beige.
-  //make it more interesting and fun than white
+  //its okay to keep this as white and simple
   if (mode == "light") {
     document.getElementById("theme-style").href = "css/default.css";
   }
@@ -31,7 +30,7 @@ function setTheme(mode) {
   }
 
   if (mode == "green") {
-    //these are okay, but the order would be better as tan -> green -> purp -> dark grey
+    //these are okay, but the order would be better as white -> green -> purp -> dark grey
     document.getElementById("theme-style").href = "css/green.css";
   }
 
